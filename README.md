@@ -1,1 +1,3 @@
 # SQL-ASSIGNMENT-10
+
+This project involves creating a robust database system for managing teacher records and ensuring data integrity. The system includes a teachers table for storing details like name, subject, experience, and salary, with constraints such as preventing negative salaries using a trigger. Additionally, a teacher_log table is implemented to track all insert and delete actions through triggers. The triggers also enforce business rules, such as disallowing the deletion of teachers with over 10 years of experience, ensuring data consistency and facilitating audit trails. This setup demonstrates effective use of SQL features to manage and protect critical data.
